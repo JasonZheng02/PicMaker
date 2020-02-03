@@ -1,5 +1,5 @@
 with open('pic.ppm', 'w') as f:
-    f.write('P3\n512 512\n512\n')
+    f.write('P3\n512 512\n511\n')
     r = 128
     g = 0
     b = 420
